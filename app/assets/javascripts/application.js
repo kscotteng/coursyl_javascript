@@ -14,3 +14,17 @@
 //= require jquery_ujs
 //= require d3
 //= require_tree .
+
+// <script type="text/javascript">
+
+
+function oneClick() {
+  var button = document.getElementByName("commit")[0];
+  button.disabled = true;
+  return true;
+}
+
+
+
+
+// </script>
